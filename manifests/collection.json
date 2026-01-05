@@ -1,0 +1,15 @@
+{
+  "id" : "https://bretelemens.github.io/IIIFv3-testcase/manifests/collection.json",
+  "label" : {
+    "en" : [ "All manifests loaded in bretelemens/IIIFv3-testcase project" ]
+  },
+  "type" : "Collection",
+  "@context" : "http://iiif.io/api/presentation/3/context.json",
+  "items" : [ {
+    "id" : "https://bretelemens.github.io/IIIFv3-testcase/manifests/manifest.json",
+    "label" : {
+      "en" : [ "Adam en Eva" ]
+    },
+    "type" : "Manifest"
+  } ]
+}
