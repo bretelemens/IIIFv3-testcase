@@ -1,0 +1,11 @@
+{
+    "@context": "http://iiif.io/api/presentation/3/context.json",
+    "id": "https://bretelemens.github.io/IIIFv3-testcase/images/manifest.json",
+    "type": "Manifest",
+    "label": {
+        "en": [
+            "All images loaded in bretelemens/IIIFv3-testcase project"
+        ]
+    },
+    "items": []
+}
