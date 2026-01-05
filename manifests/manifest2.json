@@ -31,7 +31,7 @@
     "height" : 4347,
     "width" : 3325,
     "label" : {
-      "none" : [ "Adam en Eva, Peter Paul Rubens, 1598-1600, Collectie Stad Antwerpen, Rubenshuis" ]
+      "none" : [ "Voorzijde van Adam en Eva, Peter Paul Rubens, 1598-1600, Collectie Stad Antwerpen, Rubenshuis" ]
     },
     "requiredStatement" : {
       "label" : {
@@ -78,13 +78,6 @@
           } ]
         }
       } ]
-    } ],
-    "annotations" : [ {
-      "id" : "https://media.antwerpen.be/media/iiif/o2hHAQfK6kbrMLCPPgH5vGYI/canvas/normal/annotations/1t6hq39wbqg-mk197krj",
-      "type" : "AnnotationPage",
-      "label" : {
-        "en" : [ "Inline annotations" ]
-      }
     } ]
   }, {
     "id" : "https://media.antwerpen.be/media/iiif/w1hNmLYhFnlViTeXwke1pVF6/canvas/normal",
@@ -92,7 +85,7 @@
     "height" : 1531,
     "width" : 1200,
     "label" : {
-      "none" : [ "Adam en Eva, Peter Paul Rubens, 1598-1600, Collectie Stad Antwerpen, Rubenshuis" ]
+      "none" : [ "Voorzijde met lijst van Adam en Eva, Peter Paul Rubens, 1598-1600, Collectie Stad Antwerpen, Rubenshuis" ]
     },
     "requiredStatement" : {
       "label" : {
@@ -105,14 +98,6 @@
     "thumbnail" : [ {
       "id" : "https://media.antwerpen.be/media/18/M/M15gPaSQddPZWaKBLefVAhLj/M15gPaSQddPZWaKBLefVAhLj.jpg",
       "type" : "Image"
-    } ],
-    "rendering" : [ {
-      "id" : "https://s3-ant1.antwerpen.be/prod-digitalassets-dams/H/H2NjcmQQTrU9gTCZfIkiaeUJ/DIG00163.jpg",
-      "type" : "Image",
-      "format" : "image/jpeg",
-      "label" : {
-        "none" : [ "DIG00163.jpg" ]
-      }
     } ],
     "items" : [ {
       "id" : "https://media.antwerpen.be/media/iiif/w1hNmLYhFnlViTeXwke1pVF6/canvas/normal/annotation-page",
@@ -146,7 +131,7 @@
     "width" : 1200,
     "behavior" : [ "paged", "no-auto-advance" ],
     "label" : {
-      "none" : [ "Detailopname konijn, Adam en Eva, Peter Paul Rubens, 1598-1600, Collectie Stad Antwerpen, Rubenshuis" ]
+      "none" : [ "Detail konijn uit Adam en Eva, Peter Paul Rubens, 1598-1600, Collectie Stad Antwerpen, Rubenshuis" ]
     },
     "requiredStatement" : {
       "label" : {
