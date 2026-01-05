@@ -9,11 +9,17 @@
     "en" : [ "Adam en Eva, olieverfschilering op hout door Peter Paul Rubens in 1598-1600. Collectie Stad Antwerpen, Rubenshuis." ]
   },
   "provider" : [ {
-    "id" : "https://example.org/89p9adqs8o9-mk18g666/provider/6l5fcm96hsh-mk18mkvl",
+    "id" : "http://www.wikidata.org/entity/Q775644",
     "type" : "Agent",
     "label" : {
       "en" : [ "Stad Antwerpen, Rubenshuis" ]
     },
+    "homepage":[{
+      "id":"https://rubenshuis.be",
+      "type":"text",
+      "label":{"nl":["Homepqge Rubenshuis"]},
+      "format":"text/html"
+    }],
     "logo" : [ {
       "id" : "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%2Fid%2FOIP.e4KL31KtLQOhqv7V3hIjcAAAAA%3Fpid%3DApi&f=1&ipt=497ef161c8ce334d3ff4c3ec004e4b766105220b43c4938d3024a5b001137b6e&ipo=images",
       "type" : "Image"
