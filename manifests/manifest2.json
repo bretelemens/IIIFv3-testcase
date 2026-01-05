@@ -17,7 +17,7 @@
     "homepage":[{
       "id":"https://rubenshuis.be",
       "type":"text",
-      "label":{"nl":["Homepqge Rubenshuis"]},
+      "label":{"nl":["Homepage Rubenshuis"]},
       "format":"text/html"
     }],
     "logo" : [ {
