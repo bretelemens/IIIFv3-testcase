@@ -23,5 +23,11 @@
       "en" : [ "Adam en Eva" ]
     },
     "type" : "Manifest"
+  }, {
+    "id" : "https://bretelemens.github.io/IIIFv3-testcase/manifests/manifest3.json",
+    "label" : {
+      "en" : [ "Adam en Eva" ]
+    },
+    "type" : "Manifest"
   } ]
 }
