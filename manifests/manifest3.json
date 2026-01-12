@@ -123,7 +123,7 @@
           "service" : [ {
             "profile" : "level0",
             "id" : "https://bretelemens.github.io/IIIFv3-testcase/images/adam-and-eve-peter-paul-rubens-c1597",
-            "type" : "ImageService3",
+            "type" : "ImageService3"
           } ]
         }
       } ]
