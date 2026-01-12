@@ -121,37 +121,9 @@
           "height" : 824,
           "width" : 623,
           "service" : [ {
-            "tiles" : [ {
-              "scaleFactors" : [ 32, 16, 8, 4, 2, 1 ],
-              "width" : 1024,
-              "height" : 1024
-            } ],
-            "protocol" : "http://iiif.io/api/image",
-            "sizes" : [ {
-              "width" : 20,
-              "height" : 26
-            }, {
-              "width" : 39,
-              "height" : 52
-            }, {
-              "width" : 78,
-              "height" : 103
-            }, {
-              "width" : 156,
-              "height" : 206
-            }, {
-              "width" : 312,
-              "height" : 412
-            }, {
-              "width" : 623,
-              "height" : 824
-            } ],
             "profile" : "level0",
-            "width" : 623,
             "id" : "https://bretelemens.github.io/IIIFv3-testcase/images/adam-and-eve-peter-paul-rubens-c1597",
             "type" : "ImageService3",
-            "@context" : "http://iiif.io/api/image/3/context.json",
-            "height" : 824
           } ]
         }
       } ]
@@ -201,37 +173,9 @@
           "height" : 4337,
           "width" : 2891,
           "service" : [ {
-            "tiles" : [ {
-              "scaleFactors" : [ 32, 16, 8, 4, 2, 1 ],
-              "width" : 1024,
-              "height" : 1024
-            } ],
-            "protocol" : "http://iiif.io/api/image",
-            "sizes" : [ {
-              "width" : 91,
-              "height" : 136
-            }, {
-              "width" : 181,
-              "height" : 272
-            }, {
-              "width" : 362,
-              "height" : 543
-            }, {
-              "width" : 723,
-              "height" : 1085
-            }, {
-              "width" : 1446,
-              "height" : 2169
-            }, {
-              "width" : 2891,
-              "height" : 4337
-            } ],
             "profile" : "level0",
-            "width" : 2891,
             "id" : "https://bretelemens.github.io/IIIFv3-testcase/images/DIG08250",
-            "type" : "ImageService3",
-            "@context" : "http://iiif.io/api/image/3/context.json",
-            "height" : 4337
+            "type" : "ImageService3"
           } ]
         }
       } ]
@@ -281,37 +225,9 @@
           "height" : 2718,
           "width" : 3778,
           "service" : [ {
-            "tiles" : [ {
-              "scaleFactors" : [ 32, 16, 8, 4, 2, 1 ],
-              "width" : 1024,
-              "height" : 1024
-            } ],
-            "protocol" : "http://iiif.io/api/image",
-            "sizes" : [ {
-              "width" : 119,
-              "height" : 85
-            }, {
-              "width" : 237,
-              "height" : 170
-            }, {
-              "width" : 473,
-              "height" : 340
-            }, {
-              "width" : 945,
-              "height" : 680
-            }, {
-              "width" : 1889,
-              "height" : 1359
-            }, {
-              "width" : 3778,
-              "height" : 2718
-            } ],
             "profile" : "level0",
-            "width" : 3778,
             "id" : "https://bretelemens.github.io/IIIFv3-testcase/images/DIG08248",
-            "type" : "ImageService3",
-            "@context" : "http://iiif.io/api/image/3/context.json",
-            "height" : 2718
+            "type" : "ImageService3"
           } ]
         }
       } ]
