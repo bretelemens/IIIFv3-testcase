@@ -1,0 +1,33 @@
+{
+  "tiles" : [ {
+    "scaleFactors" : [ 32, 16, 8, 4, 2, 1 ],
+    "width" : 1024,
+    "height" : 1024
+  } ],
+  "protocol" : "http://iiif.io/api/image",
+  "sizes" : [ {
+    "width" : 20,
+    "height" : 26
+  }, {
+    "width" : 39,
+    "height" : 52
+  }, {
+    "width" : 78,
+    "height" : 103
+  }, {
+    "width" : 156,
+    "height" : 206
+  }, {
+    "width" : 312,
+    "height" : 412
+  }, {
+    "width" : 623,
+    "height" : 824
+  } ],
+  "profile" : "level0",
+  "width" : 623,
+  "id" : "https://bretelemens.github.io/IIIFv3-testcase/images/adam-and-eve-peter-paul-rubens-c1597",
+  "type" : "ImageService3",
+  "@context" : "http://iiif.io/api/image/3/context.json",
+  "height" : 824
+}

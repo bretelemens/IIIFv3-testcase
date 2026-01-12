@@ -1,0 +1,33 @@
+{
+  "tiles" : [ {
+    "scaleFactors" : [ 32, 16, 8, 4, 2, 1 ],
+    "width" : 1024,
+    "height" : 1024
+  } ],
+  "protocol" : "http://iiif.io/api/image",
+  "sizes" : [ {
+    "width" : 119,
+    "height" : 85
+  }, {
+    "width" : 237,
+    "height" : 170
+  }, {
+    "width" : 473,
+    "height" : 340
+  }, {
+    "width" : 945,
+    "height" : 680
+  }, {
+    "width" : 1889,
+    "height" : 1359
+  }, {
+    "width" : 3778,
+    "height" : 2718
+  } ],
+  "profile" : "level0",
+  "width" : 3778,
+  "id" : "https://bretelemens.github.io/IIIFv3-testcase/images/DIG08248",
+  "type" : "ImageService3",
+  "@context" : "http://iiif.io/api/image/3/context.json",
+  "height" : 2718
+}
