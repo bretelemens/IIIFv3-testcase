@@ -2,7 +2,6 @@
   "@context" : "http://iiif.io/api/presentation/3/context.json",
   "id" : "https://bretelemens.github.io/IIIFv3-testcase/manifests/manifest3.json",
   "type" : "Manifest",
-  "behavior" : [ "paged" ],
   "label" : {
     "en" : [ "Adam en Eva" ]
   },
