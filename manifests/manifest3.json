@@ -1,0 +1,321 @@
+{
+  "@context" : "http://iiif.io/api/presentation/3/context.json",
+  "id" : "https://bretelemens.github.io/IIIFv3-testcase/manifests/manifest3.json",
+  "type" : "Manifest",
+  "behavior" : [ "paged" ],
+  "label" : {
+    "en" : [ "Adam en Eva" ]
+  },
+  "metadata" : [ {
+    "label" : {
+      "en" : [ "Inventarisnummer" ]
+    },
+    "value" : {
+      "en" : [ "RH.S.164" ]
+    }
+  }, {
+    "label" : {
+      "en" : [ "Titel" ]
+    },
+    "value" : {
+      "en" : [ "Adam en Eva" ]
+    }
+  }, {
+    "label" : {
+      "en" : [ "Maker" ]
+    },
+    "value" : {
+      "en" : [ "Peter Paul Rubens" ]
+    }
+  }, {
+    "label" : {
+      "en" : [ "Datering" ]
+    },
+    "value" : {
+      "en" : [ "1598 - 1600" ]
+    }
+  }, {
+    "label" : {
+      "en" : [ "Bewaarinstelling" ]
+    },
+    "value" : {
+      "en" : [ "Stad Antwerpen, Rubenshuis" ]
+    }
+  }, {
+    "label" : {
+      "en" : [ "Data Eigenaar" ]
+    },
+    "value" : {
+      "en" : [ "Stad Antwerpen, Rubenshuis" ]
+    }
+  }, {
+    "label" : {
+      "en" : [ "Fotograaf" ]
+    },
+    "value" : {
+      "en" : [ "Michel Wuyts" ]
+    }
+  } ],
+  "summary" : {
+    "en" : [ "olieverfschildering op hout door Peter Paul Rubens in 1598-1600. Collectie Stad Antwerpen, Rubenshuis." ]
+  },
+  "rights" : "http://creativecommons.org/publicdomain/zero/1.0/",
+  "provider" : [ {
+    "id" : "https://www.wikidata.org/wiki/Q12892",
+    "type" : "Agent",
+    "label" : {
+      "nl" : [ "Stad Antwerpen" ]
+    },
+    "homepage" : [ {
+      "id" : "https://www.wikidata.org/wiki/Q12892",
+      "type" : "Text",
+      "format" : "text/html",
+      "label" : {
+        "en" : [ "Homepage stad Antwerpen" ]
+      },
+      "language" : [ "en" ]
+    } ],
+    "logo" : [ {
+      "id" : "https://images.seeklogo.com/logo-png/40/1/stad-antwerpen-logo-png_seeklogo-405522.png",
+      "type" : "Image"
+    } ]
+  } ],
+  "items" : [ {
+    "id" : "https://example.org/wshgvpqao6-mkb085ed/canvas/dilebl7rnm-mkb1angd",
+    "type" : "Canvas",
+    "height" : 824,
+    "width" : 623,
+    "label" : {
+      "en" : [ "voorzijde Adam en Eva. olieverfschildering op hout door Peter Paul Rubens in 1598-1600. Collectie Stad Antwerpen, Rubenshuis\n" ]
+    },
+    "requiredStatement" : {
+      "label" : {
+        "en" : [ "Naamsvermelding" ]
+      },
+      "value" : {
+        "en" : [ "foto: Michel Wuyts" ]
+      }
+    },
+    "rights" : "http://creativecommons.org/publicdomain/zero/1.0/",
+    "thumbnail" : [ {
+      "id" : "https://bretelemens.github.io/IIIFv3-testcase/images/adam-and-eve-peter-paul-rubens-c1597/full/312,/0/default.jpg",
+      "type" : "Image",
+      "format" : "image/jpeg",
+      "height" : 412,
+      "width" : 312
+    } ],
+    "items" : [ {
+      "id" : "https://example.org/wshgvpqao6-mkb085ed/canvas/dilebl7rnm-mkb1angd/annotation-page/wlcdgvetb3o-mkb1angd",
+      "type" : "AnnotationPage",
+      "items" : [ {
+        "id" : "https://example.org/wshgvpqao6-mkb085ed/annotation/rjmoj8uouud-mkb1angc",
+        "type" : "Annotation",
+        "label" : {
+          "en" : [ "DIG08248" ]
+        },
+        "motivation" : "painting",
+        "target" : "https://example.org/wshgvpqao6-mkb085ed/canvas/dilebl7rnm-mkb1angd",
+        "body" : {
+          "id" : "https://bretelemens.github.io/IIIFv3-testcase/images/adam-and-eve-peter-paul-rubens-c1597/full/max/0/default.jpg",
+          "type" : "Image",
+          "format" : "image/jpeg",
+          "height" : 824,
+          "width" : 623,
+          "service" : [ {
+            "tiles" : [ {
+              "scaleFactors" : [ 32, 16, 8, 4, 2, 1 ],
+              "width" : 1024,
+              "height" : 1024
+            } ],
+            "protocol" : "http://iiif.io/api/image",
+            "sizes" : [ {
+              "width" : 20,
+              "height" : 26
+            }, {
+              "width" : 39,
+              "height" : 52
+            }, {
+              "width" : 78,
+              "height" : 103
+            }, {
+              "width" : 156,
+              "height" : 206
+            }, {
+              "width" : 312,
+              "height" : 412
+            }, {
+              "width" : 623,
+              "height" : 824
+            } ],
+            "profile" : "level0",
+            "width" : 623,
+            "id" : "https://bretelemens.github.io/IIIFv3-testcase/images/adam-and-eve-peter-paul-rubens-c1597",
+            "type" : "ImageService3",
+            "@context" : "http://iiif.io/api/image/3/context.json",
+            "height" : 824
+          } ]
+        }
+      } ]
+    } ]
+  }, {
+    "id" : "https://example.org/wshgvpqao6-mkb085ed/canvas/sd15lxhe4w-mkb1dx61",
+    "type" : "Canvas",
+    "height" : 4337,
+    "width" : 2891,
+    "label" : {
+      "en" : [ "Detail vogels in Adam en Eva. olieverfschildering op hout door Peter Paul Rubens in 1598-1600. Collectie Stad Antwerpen, Rubenshuis\n" ]
+    },
+    "summary" : {
+      "en" : [ "" ]
+    },
+    "requiredStatement" : {
+      "label" : {
+        "en" : [ "Naamsvermelding" ]
+      },
+      "value" : {
+        "en" : [ "foto: Michel Wuyts" ]
+      }
+    },
+    "rights" : "http://creativecommons.org/publicdomain/zero/1.0/",
+    "thumbnail" : [ {
+      "id" : "https://bretelemens.github.io/IIIFv3-testcase/images/DIG08250/full/362,/0/default.jpg",
+      "type" : "Image",
+      "format" : "image/jpeg",
+      "height" : 543,
+      "width" : 362
+    } ],
+    "items" : [ {
+      "id" : "https://example.org/wshgvpqao6-mkb085ed/canvas/sd15lxhe4w-mkb1dx61/annotation-page/lunlavwczb-mkb1dx61",
+      "type" : "AnnotationPage",
+      "items" : [ {
+        "id" : "https://example.org/wshgvpqao6-mkb085ed/annotation/igbqxbn035f-mkb1dx61",
+        "type" : "Annotation",
+        "label" : {
+          "en" : [ "DIG08250" ]
+        },
+        "motivation" : "painting",
+        "target" : "https://example.org/wshgvpqao6-mkb085ed/canvas/sd15lxhe4w-mkb1dx61",
+        "body" : {
+          "id" : "https://bretelemens.github.io/IIIFv3-testcase/images/DIG08250/full/max/0/default.jpg",
+          "type" : "Image",
+          "format" : "image/jpeg",
+          "height" : 4337,
+          "width" : 2891,
+          "service" : [ {
+            "tiles" : [ {
+              "scaleFactors" : [ 32, 16, 8, 4, 2, 1 ],
+              "width" : 1024,
+              "height" : 1024
+            } ],
+            "protocol" : "http://iiif.io/api/image",
+            "sizes" : [ {
+              "width" : 91,
+              "height" : 136
+            }, {
+              "width" : 181,
+              "height" : 272
+            }, {
+              "width" : 362,
+              "height" : 543
+            }, {
+              "width" : 723,
+              "height" : 1085
+            }, {
+              "width" : 1446,
+              "height" : 2169
+            }, {
+              "width" : 2891,
+              "height" : 4337
+            } ],
+            "profile" : "level0",
+            "width" : 2891,
+            "id" : "https://bretelemens.github.io/IIIFv3-testcase/images/DIG08250",
+            "type" : "ImageService3",
+            "@context" : "http://iiif.io/api/image/3/context.json",
+            "height" : 4337
+          } ]
+        }
+      } ]
+    } ]
+  }, {
+    "id" : "https://example.org/wshgvpqao6-mkb085ed/canvas/6m6r20m69im-mkb1gq24",
+    "type" : "Canvas",
+    "height" : 2718,
+    "width" : 3778,
+    "label" : {
+      "en" : [ "Detail konijn uit Adam en Eva. olieverfschildering op hout door Peter Paul Rubens in 1598-1600. Collectie Stad Antwerpen, Rubenshuis\n" ]
+    },
+    "requiredStatement" : {
+      "label" : {
+        "en" : [ "Naamsvermelding" ]
+      },
+      "value" : {
+        "en" : [ "foto: Michel Wuyts" ]
+      }
+    },
+    "rights" : "http://creativecommons.org/publicdomain/zero/1.0/",
+    "thumbnail" : [ {
+      "id" : "https://bretelemens.github.io/IIIFv3-testcase/images/DIG08248/full/473,/0/default.jpg",
+      "type" : "Image",
+      "format" : "image/jpeg",
+      "height" : 340,
+      "width" : 473
+    } ],
+    "items" : [ {
+      "id" : "https://example.org/wshgvpqao6-mkb085ed/canvas/6m6r20m69im-mkb1gq24/annotation-page/qy5repb5vk-mkb1gq24",
+      "type" : "AnnotationPage",
+      "items" : [ {
+        "id" : "https://example.org/wshgvpqao6-mkb085ed/annotation/vy99hxyxqxn-mkb1gq24",
+        "type" : "Annotation",
+        "label" : {
+          "en" : [ "DIG08248" ]
+        },
+        "summary" : {
+          "en" : [ "" ]
+        },
+        "motivation" : "painting",
+        "target" : "https://example.org/wshgvpqao6-mkb085ed/canvas/6m6r20m69im-mkb1gq24",
+        "body" : {
+          "id" : "https://bretelemens.github.io/IIIFv3-testcase/images/DIG08248/full/max/0/default.jpg",
+          "type" : "Image",
+          "format" : "image/jpeg",
+          "height" : 2718,
+          "width" : 3778,
+          "service" : [ {
+            "tiles" : [ {
+              "scaleFactors" : [ 32, 16, 8, 4, 2, 1 ],
+              "width" : 1024,
+              "height" : 1024
+            } ],
+            "protocol" : "http://iiif.io/api/image",
+            "sizes" : [ {
+              "width" : 119,
+              "height" : 85
+            }, {
+              "width" : 237,
+              "height" : 170
+            }, {
+              "width" : 473,
+              "height" : 340
+            }, {
+              "width" : 945,
+              "height" : 680
+            }, {
+              "width" : 1889,
+              "height" : 1359
+            }, {
+              "width" : 3778,
+              "height" : 2718
+            } ],
+            "profile" : "level0",
+            "width" : 3778,
+            "id" : "https://bretelemens.github.io/IIIFv3-testcase/images/DIG08248",
+            "type" : "ImageService3",
+            "@context" : "http://iiif.io/api/image/3/context.json",
+            "height" : 2718
+          } ]
+        }
+      } ]
+    } ]
+  } ]
+}
