@@ -3,11 +3,39 @@
   "id" : "https://bretelemens.github.io/IIIFv3-testcase/manifests/manifest2.json",
   "type" : "Manifest",
   "label" : {
-    "en" : [ "Adam en Eva" ]
+    "nl" : [ "Adam en Eva" ]
   },
   "summary" : {
-    "en" : [ "Adam en Eva, olieverfschilering op hout door Peter Paul Rubens in 1598-1600. Collectie Stad Antwerpen, Rubenshuis." ]
+    "nl" : [ "Adam en Eva, olieverfschilering op hout door Peter Paul Rubens in 1598-1600. Collectie Stad Antwerpen, Rubenshuis." ]
   },
+  "metadata": [
+    {"label": {"nl": ["Inventarisnummer"] },
+      "value": {"nl": ["RH.S.164"]}
+    },
+    { "label": {"nl": ["Titel"] },
+      "value": {"nl": ["Adam en Eva"]}
+    },
+    { "label": {"nl": ["Maker"] },
+      "value": {"nl": ["Peter Paul Rubens"]}
+    },
+    { "label": {"nl": ["Datering"] },
+      "value": {"nl": [" 1598 - 1600"]}
+    },
+    { "label": {"nl": ["Bewaarinstelling"]}
+      "value": {"nl": ["Stad Antwerpen, Rubenshuis"]}
+    },
+    { "label": {"nl": ["Data-eigenaar"]}
+      "value": {"nl": ["Stad Antwerpen, Rubenshuis"]}
+    },
+
+    { "label": {"nl": ["Fotograaf"]},
+      "value": {"nl": ["Michel Wuyts"]}
+    },
+    { "label": {"nl": ["Rechthebbende"]},
+      "value": {"nl": ["Panamarenko Estate"]}
+    }],
+  "viewingDirection": "left-to-right",
+  "behavior": "paged",
   "provider" : [ {
     "id" : "http://www.wikidata.org/entity/Q775644",
     "type" : "Agent",
@@ -46,14 +74,6 @@
       "id" : "https://media.antwerpen.be/media/18/h/h2BRHmmAwekDxYsgYcU4abZw/h2BRHmmAwekDxYsgYcU4abZw.jpg",
       "type" : "Image"
     } ],
-    "rendering" : [ {
-      "id" : "https://media.antwerpen.be/download/18/G/GYmWvCXMhafGSaWqc1fytseM/RH_S_164_Foto002.tif",
-      "type" : "Image",
-      "format" : "image/tiff",
-      "label" : {
-        "none" : [ "RH_S_164_Foto002.tif" ]
-      }
-    } ],
     "items" : [ {
       "id" : "https://media.antwerpen.be/media/iiif/o2hHAQfK6kbrMLCPPgH5vGYI/canvas/normal/annotation-page",
       "type" : "AnnotationPage",
@@ -69,7 +89,7 @@
           "height" : 4347,
           "width" : 3325,
           "label" : {
-            "none" : [ "" ]
+            "nl" : [ "RH_S_164_Foto002.tif" ]
           },
           "service" : [ {
             "@id" : "https://dams.antwerpen.be/iiif/o2hHAQfK6kbrMLCPPgH5vGYI",
@@ -105,6 +125,7 @@
       "items" : [ {
         "id" : "http://example.org/oa:Annotation/4",
         "type" : "Annotation",
+        "label":{["nl":"DIG120R.tif"]},
         "motivation" : "painting",
         "target" : "https://media.antwerpen.be/media/iiif/w1hNmLYhFnlViTeXwke1pVF6/canvas/normal",
         "body" : {
@@ -145,20 +166,13 @@
       "id" : "https://media.antwerpen.be/media/18/K/K1cPUYlgDnEXSadf8LfMmlLz/K1cPUYlgDnEXSadf8LfMmlLz.jpg",
       "type" : "Image"
     } ],
-    "rendering" : [ {
-      "id" : "https://s3-ant1.antwerpen.be/prod-digitalassets-dams/e/e1aMVeCUfhPaOBXbSX42qFmR/DIG08248.jpg",
-      "type" : "Image",
-      "format" : "image/jpeg",
-      "label" : {
-        "none" : [ "DIG08248.jpg" ]
-      }
-    } ],
     "items" : [ {
       "id" : "https://media.antwerpen.be/media/iiif/nSGYa8TPIco5LdinRUD53JuP/canvas/normal/annotation-page",
       "type" : "AnnotationPage",
       "items" : [ {
         "id" : "http://example.org/oa:Annotation/6",
         "type" : "Annotation",
+        "label":{["nl":"DIG08248.jpg"}],
         "motivation" : "painting",
         "target" : "https://media.antwerpen.be/media/iiif/nSGYa8TPIco5LdinRUD53JuP/canvas/normal",
         "body" : {
