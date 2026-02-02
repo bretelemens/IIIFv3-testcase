@@ -1,33 +1,60 @@
 {
-  "id" : "https://bretelemens.github.io/IIIFv3-testcase/manifests/collection.json",
-  "label" : {
-    "en" : [ "All manifests loaded in bretelemens/IIIFv3-testcase project" ]
-  },
-  "type" : "Collection",
   "@context" : "http://iiif.io/api/presentation/3/context.json",
+  "id" : "https://bretelemens.github.io/IIIFv3-testcase/manifests/collection.json",
+    "type" : "Collection",
+  "label" : {
+    "en" : [ "collectie Rubenshuis" ]
+  },
+  "summary":"Deze collectie bevat alle werken in de collectie van het Rubenshuis",
+  "metadata": [
+    {"label": {"nl": ["naam"]},
+      "value": {"nl": ["RH.S.164"]}
+    },
+    { "label": {"nl": ["identificatienummer"]},
+      "value": {"nl": ["https://isni.org/isni/0000000119425402"]}
+    },
+    { "label": {"nl": ["collectietype"]},
+      "value": {"nl": ["museale collectie"]}
+    },
+    { "label": {"nl": ["locatie"]},
+      "value": {"nl": ["Rubenshuis"]}
+    },
+    { "label": {"nl": ["beheerder"]}
+      "value": {"nl": ["Stad Antwerpen, Rubenshuis"]}
+    },
+    { "label": {"nl": ["acquisitiestatus"]},
+      "value": {"nl": ["actief"]
+    },
+    { "label": {"nl": ["data-eigenaar"]}
+      "value": {"nl": ["Stad Antwerpen, Rubenshuis"]}
+    }
+    ],
+  "provider":[{
+      "id": "https://data.antwerpen.be/agent/123",
+      "type": "Agent",
+      "label": {"nl": ["Stad Antwerpen"]},
+      "homepage": [{
+          "id": "https://antwerpen.be/",
+          "type": "Text",
+          "label": {"nl": ["Homepage Stad Antwerpen"]},
+          "format": "text/html"
+                  }],
+      "logo": [{  
+         "id":"https://data.antwerpen.be/iiif/[id]/full/max/0/default.png",
+         "type": "Image",
+         "format": "image/png",
+              }]
+        }],
+  "thumbnail":{
+        "id": "https://media.antwerpen.be/media/18/V/VTMYbYiEVMOahJMbvYvAJJKx/VTMYbYiEVMOahJMbvYvAJJKx.jpg",
+        “type": "Image",
+	   "format": "image/jpeg"
+               }
+,
   "items" : [ {
-    "id" : "https://bretelemens.github.io/IIIFv3-testcase/manifests/manifest.json",
-    "label" : {
-      "en" : [ "Adam en Eva" ]
-    },
-    "type" : "Manifest"
-  }, {
-    "id" : "https://bretelemens.github.io/IIIFv3-testcase/manifests/test",
-    "label" : {
-      "en" : [ "Adam en Eva" ]
-    },
-    "type" : "Manifest"
-  }, {
-    "id" : "https://bretelemens.github.io/IIIFv3-testcase/manifests/manifest2.json",
-    "label" : {
-      "en" : [ "Adam en Eva" ]
-    },
-    "type" : "Manifest"
-  }, {
     "id" : "https://bretelemens.github.io/IIIFv3-testcase/manifests/manifest3.json",
     "label" : {
       "en" : [ "Adam en Eva" ]
-    },
-    "type" : "Manifest"
+    }
   } ]
 }
